@@ -1,8 +1,8 @@
 require 'mongoid'
 
-module ActionController
+module ActionDispatch
   module Session
-    class MongoidStore < AbstractStore
+    class MongoidStore < ActionDispatch::Session::AbstractStore
       
       class Session
         include Mongoid::Document

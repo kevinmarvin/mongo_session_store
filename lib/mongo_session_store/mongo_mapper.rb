@@ -1,8 +1,8 @@
 require 'mongo_mapper'
 
-module ActionController
+module ActionDispatch
   module Session
-    class MongoMapperStore < AbstractStore
+    class MongoMapperStore < ActionDispatch::Session::AbstractStore
       
       class Session
         include MongoMapper::Document
