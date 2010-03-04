@@ -4,7 +4,7 @@
 
 This is a fork of the DataMapper session store, modified to work with MongoMapper and Mongoid, in the new Rails 3 environment.
 
-There's a detailed tutorial on http://www.nicolaracco.com/articles/rails3-application-with-mongodb
+There's a detailed tutorial on <a href="http://www.nicolaracco.com/articles/rails3-application-with-mongodb">www.nicolaracco.com</a>.
 For a short tutorial, read on:
 
 
