@@ -4,6 +4,10 @@
 
 This is a fork of the DataMapper session store, modified to work with MongoMapper and Mongoid, in the new Rails 3 environment.
 
+There's a detailed tutorial on http://www.nicolaracco.com/articles/rails3-application-with-mongodb
+For a short tutorial, read on:
+
+
 ## To Install
 
 To install the gem run:
@@ -20,6 +24,7 @@ Then run:
 
     bundle install
 
+
 ## Usage with MongoMapper
 
 In the session_store initializer (config/initializers/session_store.rb):
@@ -27,12 +32,14 @@ In the session_store initializer (config/initializers/session_store.rb):
     require "mongo_session_store/mongo_mapper"
     ActionController::Base.session_store = :mongo_mapper_store
 
+
 ## Usage with Mongoid
 
 In the session_store initializer (config/initializers/session_store.rb):
 
     require "mongo_session_store/mongoid"
     ActionController::Base.session_store = :mongoid_store
+
 
 ## License
 
