@@ -5,10 +5,10 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mongo_session_store}
-  s.version = "1.2.0"
+  s.version = "1.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Nicola Racco", "Nicolas M\303\251rouze", "Tony Pitale", "Chris Brickley"]
+  s.authors = ["Kevin Marvin", "Nicola Racco", "Nicolas M\303\251rouze", "Tony Pitale", "Chris Brickley"]
   s.date = %q{2010-02-21}
   s.email = %q{nicola@nicolaracco.com}
   s.extra_rdoc_files = [
