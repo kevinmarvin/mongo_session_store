@@ -20,7 +20,7 @@ module ActionDispatch
 
       private
         def generate_sid
-          BSON::ObjectId.new
+          BSON::ObjectId.new.to_s
         end
 
         def get_session(env, sid)
