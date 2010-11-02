@@ -30,7 +30,7 @@ Then run:
 In the session_store initializer (config/initializers/session_store.rb):
 
     require "mongo_session_store/mongo_mapper"
-    ActionController::Base.session_store = :mongo_mapper_store
+    <YOUR APP NAME>::Application.config.session_store :mongo_mapper_store
 
 
 ## Usage with Mongoid
@@ -38,11 +38,12 @@ In the session_store initializer (config/initializers/session_store.rb):
 In the session_store initializer (config/initializers/session_store.rb):
 
     require "mongo_session_store/mongoid"
-    ActionController::Base.session_store = :mongoid_store
+    <YOUR APP NAME>::Application.config.session_store  :mongo_mapper_store
 
 
 ## License
 
+Copyright (c) 2010 Kevin Marvin
 Copyright (c) 2010 Nicola Racco
 Copyright (c) 2010 Nicolas Mérouze
 Copyright (c) 2009 Chris Brickley
